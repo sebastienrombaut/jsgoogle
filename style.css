@@ -1,14 +1,21 @@
-/*div.bdy 
+.navHeader 
 {
 	display : flex;
-	flex-direction : column;
-	justify-content: center;
-	width: 400px;
-	margin : auto;
-	text-align: center;
-	padding-top: 100px;
+	justify-content: flex-end;
+	list-style-type: none;
+	align-items: center;
 }
-*/
+
+.navHeader li 
+{
+	padding: 10px;
+
+}
+
+.pad {
+	width: 20px;
+	height: auto;
+}
 
 .connexion 
 {
@@ -18,39 +25,17 @@
 	height: 30px;
 	width: auto;
 	border-radius: 3px;
-
 }
 
-div.bdy
+.bdy
 {
 	text-align: center;
 	padding-top: 109px;
 }
 
-/* {
-	border : 1px solid black;
-}
-*/
-ul.navHeader 
+.bdy *
 {
-	display : flex;
-	justify-content: flex-end;
-	list-style-type: none;
-	align-items: center;
-
-
-}
-
-ul.navHeader li 
-{
-	padding: 10px;
-
-}
-
-
-img.pad {
-	width: 20px;
-	height: auto;
+	margin :10px;
 }
 
 input
@@ -59,7 +44,62 @@ input
 	height: 30px;
 }
 
-div.bdy *
+.boutton
 {
-	margin :5px;
+	font-weight: bold;
+	background-color: rgba(199, 208, 221, 0.3);
+	height: 36px;
+	width: 149px;
+	font-size: 0.85em;
+}
+
+footer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(199, 208, 221, 0.3);
+}
+
+.indonesie
+{
+	border: 0.5px solid rgba(199, 208, 221, 0.5);
+	padding: 15px;
+}
+
+.navFooter
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 6px;
+	padding-right: 16px;
+}
+
+.navFooterGauche li
+{
+	padding: 10px;
+}
+
+.navFooterGauche
+{
+	display: flex;
+}
+
+.navFooterDroite li
+{
+	padding: 10px;
+}
+
+.navFooterDroite
+{
+	display: flex;
+}
+
+
+/* {
+	border : 1px solid black;
 }
