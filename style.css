@@ -54,6 +54,13 @@ a:visited
 	border-radius: 3px;
 }
 
+#grosBoutton
+{	
+	display: flex;
+	margin: auto;
+	height: 200px;
+	width: 200px;
+}
 /* bloc du milieu */
 
 .bdy
