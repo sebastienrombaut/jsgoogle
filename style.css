@@ -4,6 +4,14 @@
 	font-size: 0.97em;
 }
 
+/* Apparence des liens */
+
+a 
+{
+	text-decoration: none;
+
+}
+
 a:hover
 {
 	text-decoration: underline;
@@ -14,12 +22,7 @@ a:visited
 	color: rgba(0,0,0,0.87);
 }
 
-a 
-{
-	text-decoration: none;
-
-}
-
+/* navbar du haut */
 
 .navHeader 
 {
@@ -50,6 +53,8 @@ a
 	width: auto;
 	border-radius: 3px;
 }
+
+/* bloc du milieu */
 
 .bdy
 {
@@ -90,10 +95,7 @@ input:hover
 	color: black;
 }
 
-span.links
-{
-	color: blue ;
-}
+/* bloc du bas dont navbar */
 
 footer
 {
@@ -144,4 +146,4 @@ footer
 
 /* {
 	border : 1px solid black;
-}
+} */
